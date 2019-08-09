@@ -1,0 +1,14 @@
+.centro {
+    clear: both;
+    margin: 0 auto;
+    width: 990px;
+}
+.card-columns {
+    column-count: 2;
+}
+.row-column{
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    column-count: 4;
+    padding: 2%;
+    margin: 2%;
+}

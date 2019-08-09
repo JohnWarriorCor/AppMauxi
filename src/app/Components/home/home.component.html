@@ -1,0 +1,6 @@
+<app-header></app-header>
+<div class="row justify-content-center text-center" style="background-image: url('../assets/pilares.png')">
+  <div class="row" style="width: 60%;margin-top: 30px">
+    <app-palabra-tarjeta (palabraSeleccionada)="verPalabra( $event )" [palabra]="palabra" [index]="i" *ngFor="let palabra of palabras; let i = index"></app-palabra-tarjeta>
+  </div>
+</div>
